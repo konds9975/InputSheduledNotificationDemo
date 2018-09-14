@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4226928A214BACB800A44606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42269289214BACB800A44606 /* AppDelegate.swift */; };
-		4226928C214BACB800A44606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4226928B214BACB800A44606 /* ViewController.swift */; };
-		4226928F214BACB800A44606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4226928D214BACB800A44606 /* Main.storyboard */; };
 		42269292214BACB800A44606 /* InputSheduledNotificationDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42269290214BACB800A44606 /* InputSheduledNotificationDemo.xcdatamodeld */; };
 		42269294214BACBB00A44606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42269293214BACBB00A44606 /* Assets.xcassets */; };
 		42269297214BACBB00A44606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42269295214BACBB00A44606 /* LaunchScreen.storyboard */; };
 		422692A2214BACBB00A44606 /* InputSheduledNotificationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422692A1214BACBB00A44606 /* InputSheduledNotificationDemoTests.swift */; };
 		422692AD214BACBB00A44606 /* InputSheduledNotificationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422692AC214BACBB00A44606 /* InputSheduledNotificationDemoUITests.swift */; };
+		422692BC214BACDD00A44606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422692BA214BACDD00A44606 /* ViewController.swift */; };
+		422692BD214BACDD00A44606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422692BB214BACDD00A44606 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,6 @@
 /* Begin PBXFileReference section */
 		42269286214BACB800A44606 /* InputSheduledNotificationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputSheduledNotificationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42269289214BACB800A44606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4226928B214BACB800A44606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4226928E214BACB800A44606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42269291214BACB800A44606 /* InputSheduledNotificationDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InputSheduledNotificationDemo.xcdatamodel; sourceTree = "<group>"; };
 		42269293214BACBB00A44606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42269296214BACBB00A44606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		422692A8214BACBB00A44606 /* InputSheduledNotificationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InputSheduledNotificationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		422692AC214BACBB00A44606 /* InputSheduledNotificationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSheduledNotificationDemoUITests.swift; sourceTree = "<group>"; };
 		422692AE214BACBB00A44606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422692BA214BACDD00A44606 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		422692BB214BACDD00A44606 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				42269289214BACB800A44606 /* AppDelegate.swift */,
-				4226928B214BACB800A44606 /* ViewController.swift */,
-				4226928D214BACB800A44606 /* Main.storyboard */,
+				422692BA214BACDD00A44606 /* ViewController.swift */,
+				422692BB214BACDD00A44606 /* Main.storyboard */,
 				42269293214BACBB00A44606 /* Assets.xcassets */,
 				42269295214BACBB00A44606 /* LaunchScreen.storyboard */,
 				42269298214BACBB00A44606 /* Info.plist */,
@@ -232,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422692BD214BACDD00A44606 /* Main.storyboard in Resources */,
 				42269297214BACBB00A44606 /* LaunchScreen.storyboard in Resources */,
 				42269294214BACBB00A44606 /* Assets.xcassets in Resources */,
-				4226928F214BACB800A44606 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422692BC214BACDD00A44606 /* ViewController.swift in Sources */,
 				42269292214BACB800A44606 /* InputSheduledNotificationDemo.xcdatamodeld in Sources */,
-				4226928C214BACB800A44606 /* ViewController.swift in Sources */,
 				4226928A214BACB800A44606 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4226928D214BACB800A44606 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4226928E214BACB800A44606 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		42269295214BACBB00A44606 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
